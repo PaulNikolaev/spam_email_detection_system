@@ -2,12 +2,7 @@ import streamlit as st
 import joblib
 import re
 import string
-import pandas as pd
-import os
-from dotenv import load_dotenv
-load_dotenv()
 
-# Загрузка сохраненных модели и векторизатора
 try:
     pac_model = joblib.load('spam_classifier_model.pkl')
     tfidf_vectorizer = joblib.load('tfidf_vectorizer.pkl')

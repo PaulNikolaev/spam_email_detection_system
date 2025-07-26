@@ -184,5 +184,3 @@ fabric.properties
 # idea folder, uncomment if you don't need it
 .idea/
 
-spam_classifier_model.pkl
-tfidf_vectorizer.pkl
